@@ -1,0 +1,15 @@
+<mat-card class="devices">
+  <mat-card-title class="title">Create Category</mat-card-title>
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+    <mat-form-field>
+      <input matInput placeholder="Name" formControlName="name">
+    </mat-form-field>
+
+    <button mat-raised-button routerLink="/link" type="submit" class="button">
+      Add Category
+    </button>
+  </form>
+
+
+</mat-card>

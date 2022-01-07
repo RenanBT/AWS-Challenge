@@ -1,0 +1,25 @@
+<mat-card class="devices">
+  <mat-card-title class="title">Create Device</mat-card-title>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <mat-form-field>
+      <mat-label>Category</mat-label>
+      <mat-select formControlName="category_id">
+        <mat-option *ngFor="let category of categories" [value]="category.id">
+          {{category.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Color" formControlName="color">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Part Number" formControlName="part_number" type="number">
+    </mat-form-field>
+
+    <button mat-raised-button type="submit" class="button">
+      Add Device
+    </button>
+  </form>
+  
+</mat-card>

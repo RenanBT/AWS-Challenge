@@ -1,0 +1,12 @@
+.text{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.text-p{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}

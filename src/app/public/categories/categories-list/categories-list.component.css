@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+}
+
+
+.card {
+  width: auto;
+  background-color: #FFF;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.button-delete {
+  width: auto;
+  font-size: 1rem;
+}
+
+.table {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form-group {
+  border: none;
+}
+
+.button {
+  width: fit-content;
+  font-size: 1rem;
+}
+
+.span {
+  cursor: pointer;
+}
+
+.content {
+  vertical-align: middle;
+}
